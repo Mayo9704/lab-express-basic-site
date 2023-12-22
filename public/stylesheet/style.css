@@ -1,0 +1,60 @@
+body {
+    background-image: url("/images/alien-bck.jpg");
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+}
+
+article > li {
+    padding: 12px;
+    width: 70%;
+}
+
+p{
+    padding: 8px;
+    width: 60%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+a{
+    color: white;
+    font-size: 16px;
+    padding: 32px;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.nav-bar {
+    display: flex;
+    padding: 32px;
+    justify-content: end;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.logo {
+    width: 32px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 124px;
+}
+
+.hero p{
+    font-size: 24px;
+    font-style: oblique;
+}
+
+.alien {
+    width: 100px;
+
+}
+
